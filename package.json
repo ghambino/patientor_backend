@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "server": "ts-node-dev index.ts",
+    "server": "ts-node-dev src/index.ts",
     "lint": "eslint --ext .ts .",
     "start": "node build/index.js"
   },
@@ -18,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.12",
+    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "eslint": "^7.29.0",
@@ -25,6 +26,7 @@
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   }
 }

@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+    "name": "abdulwahab abbas",
+    "dateOfBirth": "1992-07-13",
+    "ssn": "473839577393",
+    "gender": "male",
+    "occupation": "software developer"
+}
